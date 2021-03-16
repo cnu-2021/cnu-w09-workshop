@@ -14,7 +14,7 @@ assert condition, error_message
 
 produces either:
 - nothing, if `condition` is `True`,
-- an `AssertionError` with error message given by the string `error_message`.
+- an `AssertionError` with error message given by the string `error_message`, if `condition` is `False`.
 
 The code in `assert_tests.py` contains a few examples of `assert` statements.
 - Run the code; nothing should happen.
