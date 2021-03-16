@@ -24,7 +24,7 @@ The code in `assert_tests.py` contains a few examples of `assert` statements.
 
 Before proceeding to the body of a function, it's good practice to check that every input argument is valid. Using `assert` statements is a way to do this.
 
-The function `bisection()` is copied here from the Week 8 tutorial solutions. At the start of the function, check that the input arguments `F`, `a`, `b`, `tol` have been supplied with the correct **type** and **value**.
+The function `bisection()` is copied here from the Week 8 tutorial solutions. At the start of the function, check that the input arguments `F`, `a`, `b`, `tol` have been supplied with the correct **type** and **value**. Before getting to coding, you should first figure out a list of everything you will need to check.
 
 Test `bisection()` with invalid inputs to check that the correct error message is displayed every time. Test it with valid inputs to make sure that no errors are triggered.
 
