@@ -24,11 +24,13 @@ The code in `assert_tests.py` contains a few examples of `assert` statements.
 
 Before proceeding to the body of a function, it's good practice to check that every input argument is valid. Using `assert` statements is a way to do this.
 
-The function `bisection()` is copied here from the Week 8 tutorial solutions. At the start of the function, check that the input arguments `F`, `a`, `b`, `tol` have been supplied with the correct **type** and **value**. Before getting to coding, you should first figure out a list of everything you will need to check.
+The function `bisection()` is copied here from the Week 8 tutorial solutions. At the start of the function, check that the input arguments `F`, `a`, `b`, `tol` have been supplied with the correct **type** and **value**. Before getting to coding, you should first figure out a list of everything you will need to check, and the order in which to check them.
 
 Test `bisection()` with invalid inputs to check that the correct error message is displayed every time. Test it with valid inputs to make sure that no errors are triggered.
 
-*Hint:* [this thread](https://stackoverflow.com/questions/624926/how-do-i-detect-whether-a-python-variable-is-a-function) discusses possible ways to check whether an object is a Python function.
+*Hint:*
+- [this thread](https://stackoverflow.com/questions/624926/how-do-i-detect-whether-a-python-variable-is-a-function) discusses possible ways to check whether an object is a Python function.
+- you may also find the modules `inspect` ([documentation](https://docs.python.org/3/library/inspect.html#module-inspect)) and `numbers` ([documentation](https://docs.python.org/3/library/numbers.html#numbers.Number)) useful.
 
 ## Task 3
 
